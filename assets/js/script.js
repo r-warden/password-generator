@@ -7,7 +7,17 @@ function generatePassword() {
 	var upper = window.confirm("Include capital letters?");
 	var num = window.confirm("Include numerals?")
 	var special = window.confirm("Include special characters?");
+	if (length>7 && length < 129){
+		if (lower || upper || num || special) {
 
+		}
+		else {
+			return "Must include at least one character type, try again";
+		}
+	}
+	else {
+		return "Invalid password length, try again";
+	}
 	return pw;
 }
 
