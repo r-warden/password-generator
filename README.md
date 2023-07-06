@@ -26,7 +26,7 @@ To use this generator, click the "Generate Password" button. Answer the prompts 
 
 ## Credits
 
-N/A
+A line of code for generating a random string was found at https://www.slingacademy.com/article/ways-to-generate-random-strings-in-javascript/ as noted in the comments of the submitted files.
 
 ## License
 
